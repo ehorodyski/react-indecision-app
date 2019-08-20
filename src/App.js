@@ -5,7 +5,8 @@ import AddOption from './components/AddOption';
 import Options from './components/Options';
 import OptionModal from './components/OptionModal';
 
-import './App.css';
+import 'normalize.css/normalize.css';
+import './App.scss';
 
 class App extends React.Component {
 
