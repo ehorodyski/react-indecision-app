@@ -1,11 +1,13 @@
+@import './variables';
+
 html {
   font-size: 62.5%;
 }
 
-
 body {
   font-family: "Segoe UI", "Roboto", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-size: 1.6rem;
+  font-size: $m-size;
+  background-color: $dark-blue;
 }
 
 code {
