@@ -14,3 +14,9 @@ code {
   font-family: Monaco, Consolas, "Courier New", monospace;
 }
 
+button {
+  cursor: pointer;
+  &:disabled {
+    cursor: pointer;
+  }
+}
